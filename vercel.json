@@ -1,9 +1,20 @@
 {
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "/home.html",
-        "permanent": true
-      }
-    ]
-  }
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/home.html",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/cv.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        }
+      ]
+    }
+  ]
+}
