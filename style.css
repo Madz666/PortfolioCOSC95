@@ -87,8 +87,7 @@ section {
     background-image: url('./assets/bg.gif');
     background-position: top center;
     background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    max-height: fit-content;  
+    max-height: max-content;  
 }
 
 .home-img img {
